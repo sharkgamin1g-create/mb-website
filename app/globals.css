@@ -1,0 +1,142 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: var(--font-plex-arabic), ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-navy: var(--navy);
+  --color-ink: var(--ink);
+  --color-tint: var(--tint);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  color-scheme: light;
+  --radius: 0.25rem;
+
+  /* Master Build brand system */
+  --background: #ffffff;
+  --foreground: #0b1220;
+  --card: #ffffff;
+  --card-foreground: #0b1220;
+  --popover: #ffffff;
+  --popover-foreground: #0b1220;
+
+  --primary: #0042ca; /* Master Build Blue */
+  --primary-foreground: #ffffff;
+
+  --secondary: #f7f9fc; /* Soft background */
+  --secondary-foreground: #0b1220;
+
+  --muted: #f7f9fc;
+  --muted-foreground: #64748b;
+
+  --accent: #eef4ff; /* Light blue tint */
+  --accent-foreground: #0042ca;
+
+  --destructive: #dc2626;
+
+  --border: #dde5f2;
+  --input: #dde5f2;
+  --ring: #0042ca;
+
+  --navy: #06142f; /* Deep navy */
+  --ink: #07111f; /* Near black */
+  --tint: #eef4ff;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'ss01', 'cv01';
+  }
+  ::selection {
+    background: var(--primary);
+    color: #fff;
+  }
+  [dir='rtl'] body {
+    font-family: var(--font-arabic);
+  }
+}
+
+@layer utilities {
+  .container-mb {
+    @apply mx-auto w-full max-w-[1400px] px-6 md:px-10 lg:px-16;
+  }
+  .label-eyebrow {
+    @apply text-xs font-medium uppercase tracking-[0.25em] text-muted-foreground;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .input-mb {
+    @apply w-full rounded-md border border-input bg-background px-4 py-3 text-sm text-foreground transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/15;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+.marquee-paused:hover .animate-marquee {
+  animation-play-state: paused;
+}
+
+[id^='o-livechat-root'] .o-mail-ChatWindow[data-mb-awaiting-operator='true'] .o-mail-ChatWindow-threadAvatar,
+[id^='o-livechat-root'] .o-mail-ChatWindow[data-mb-awaiting-operator='true'] .o-mail-ChatWindow-header > .text-truncate {
+  visibility: hidden;
+}
+
+[id^='o-livechat-root'] .o-mail-ChatWindow[data-mb-awaiting-operator='true'] .o-mail-ChatWindow-header::before {
+  position: absolute;
+  left: 3.25rem;
+  overflow: hidden;
+  max-width: 11rem;
+  color: var(--muted-foreground);
+  content: 'Waiting for a specialist...';
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
