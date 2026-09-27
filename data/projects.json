@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "project-test",
+    "name": "TEST",
+    "category": "commercial",
+    "location": "OCTOBER",
+    "year": "2026",
+    "area": "2400",
+    "scope": "Fit-Out",
+    "summary": "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST",
+    "description": "TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST",
+    "image": "/uploads/98ecfcd7-7ede-4110-b845-9d6eb357aa9e.jpg"
+  },
+  {
+    "slug": "fayrouz-resort",
+    "name": "Fayrouz Resort",
+    "category": "hospitality",
+    "location": "Egypt",
+    "year": "2023",
+    "area": "18,000 m²",
+    "scope": "Construction · Fit-Out · MEP",
+    "summary": "A coastal hospitality destination delivered turnkey, from structure to the last finish.",
+    "description": "A full-service resort environment where architecture, interiors and engineering were coordinated as one delivery. Our team managed the build, guest-facing fit-out and integrated electro-mechanical systems to a demanding hospitality standard.",
+    "image": "/images/project-hospitality.png"
+  },
+  {
+    "slug": "the-jewelry-house",
+    "name": "The Jewelry House",
+    "category": "commercial",
+    "location": "Egypt",
+    "year": "2022",
+    "area": "640 m²",
+    "scope": "Fit-Out · Interior Design",
+    "summary": "A refined retail environment engineered around light, security and material precision.",
+    "description": "A boutique retail concept demanding exceptional finish quality and bespoke detailing. We delivered the interior design and fit-out with millimeter tolerances across custom joinery, lighting and display systems.",
+    "image": "/images/project-commercial.png"
+  },
+  {
+    "slug": "aramex",
+    "name": "Aramex",
+    "category": "corporate",
+    "location": "Egypt",
+    "year": "2023",
+    "area": "2,400 m²",
+    "scope": "Fit-Out · MEP · Project Management",
+    "summary": "A corporate workplace built for operational flow and brand expression.",
+    "description": "A headquarters fit-out balancing open collaboration zones with focused work areas. We managed scope, budget and timeline end to end, integrating MEP systems for a high-performance workplace.",
+    "image": "/images/project-corporate.png"
+  },
+  {
+    "slug": "opera-city",
+    "name": "Opera City",
+    "category": "residential",
+    "location": "Egypt",
+    "year": "2021",
+    "area": "12,500 m²",
+    "scope": "Construction · Fit-Out",
+    "summary": "A residential development delivered with consistency at scale.",
+    "description": "A multi-unit residential project where repeatable quality and disciplined scheduling were essential. Our team delivered construction and finishing across units to a uniform, elevated standard.",
+    "image": "/images/project-residential.png"
+  },
+  {
+    "slug": "mall-of-arabia",
+    "name": "Mall of Arabia",
+    "category": "commercial",
+    "location": "Egypt",
+    "year": "2022",
+    "area": "5,800 m²",
+    "scope": "Fit-Out · MEP",
+    "summary": "Retail environments delivered inside a major commercial destination.",
+    "description": "A commercial fit-out program executed within a live retail context, requiring precise phasing and coordination. We delivered finishing and electro-mechanical works with minimal disruption.",
+    "image": "/images/project-commercial.png"
+  },
+  {
+    "slug": "al-mokhtabar-labs",
+    "name": "Al Mokhtabar Labs",
+    "category": "corporate",
+    "location": "Egypt",
+    "year": "2021",
+    "area": "1,900 m²",
+    "scope": "Construction · MEP · Fit-Out",
+    "summary": "A clinical environment engineered for hygiene, flow and compliance.",
+    "description": "A medical laboratory build demanding specialized MEP systems and strict finish specifications. We delivered a controlled, compliant environment optimized for staff and patient flow.",
+    "image": "/images/project-corporate.png"
+  },
+  {
+    "slug": "promenade-october",
+    "name": "Promenade October",
+    "category": "residential",
+    "location": "6th of October",
+    "year": "2023",
+    "area": "9,200 m²",
+    "scope": "Construction · Fit-Out · Interior Design",
+    "summary": "A residential community delivered from ground-up to move-in ready.",
+    "description": "A residential development where design intent carried consistently from architecture into interiors. We handled construction, interior design and fit-out as a single accountable delivery.",
+    "image": "/images/project-residential.png"
+  },
+  {
+    "slug": "tube-factory",
+    "name": "Tube Factory",
+    "category": "industrial",
+    "location": "Egypt",
+    "year": "2020",
+    "area": "22,000 m²",
+    "scope": "Construction · MEP",
+    "summary": "An industrial facility engineered for heavy operations and uptime.",
+    "description": "A large-scale industrial build requiring robust structural delivery and integrated electro-mechanical infrastructure. We delivered a facility built for demanding, continuous production.",
+    "image": "/images/hero-architecture.png"
+  },
+  {
+    "slug": "we-telecom",
+    "name": "WE Telecom",
+    "category": "corporate",
+    "location": "Egypt",
+    "year": "2022",
+    "area": "3,100 m²",
+    "scope": "Fit-Out · MEP · Project Management",
+    "summary": "A flagship corporate space blending brand, technology and comfort.",
+    "description": "A telecom headquarters fit-out integrating advanced systems with a strong brand environment. We managed the full delivery, from finishes to electro-mechanical integration.",
+    "image": "/images/project-corporate.png"
+  }
+]

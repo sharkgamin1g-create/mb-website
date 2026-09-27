@@ -19,10 +19,6 @@ yarn-error.log*
 # env files
 .env*
 
-# local dashboard project data and uploads
-/data/projects.json
-/public/uploads/
-
 # vercel
 .vercel
 
